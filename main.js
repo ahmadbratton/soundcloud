@@ -50,6 +50,7 @@ click.addEventListener("click", function choice(event) {
       // console.log(response);
 
       response.json().then(function (data) {
+        results.innerHTML = " ";
         console.log(data);
         users = data;
         get_tracks(users);
