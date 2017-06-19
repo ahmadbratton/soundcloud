@@ -9,3 +9,17 @@ body {
 .results div{
   flex-basis:20%;
 }
+.music-player{
+  width: 95%;
+  border-bottom: 1px solid black;
+  padding-bottom: 40px;
+}
+#box{
+  width:80%;
+  margin-top: 60px;
+  padding-bottom: 20px;
+}
+#sr{
+  border-top: 1px solid grey;
+  /*padding-top: 40px;*/
+}
