@@ -19,7 +19,7 @@ body {
 #box{
   width:80%;
   margin-top: 60px;
-  padding-bottom: 20px;
+  padding: 10px 0 10px 0;
 }
 #sr{
   border-top: 1px solid grey;
@@ -27,5 +27,7 @@ body {
 }
 #this_one{
 width: 15%;
+border: none;
+line-height: 30px;
 
 }
