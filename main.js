@@ -55,7 +55,9 @@ click.addEventListener("click", function choice(event) {
         get_tracks(users);
         // song_display(music);
 
+
       })
+
 
     })
 
@@ -116,6 +118,7 @@ function song_display(info) {
     music_player.src = stream + "?client_id=095fe1dcd09eb3d0e1d3d89c76f5618f";
     console.log(div);
   }
+
   // play_music(info);
 }
 
